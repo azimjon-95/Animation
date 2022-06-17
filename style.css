@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.container{
+    width: 100%;
+    height: 48vw;
+    background-color: #abe1ec;
+    box-sizing: border-box;
+}
+
+.con{
+    width: 100%;
+    height: 48vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.box1{
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent ;
+    border-right: 150px solid transparent ;
+    border-bottom: 400px solid #77c7d1;
+    position: absolute;
+    left: 30%;
+}
+
+.box2{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent ;
+    border-right: 200px solid transparent ;
+    border-bottom: 340px solid#77c7d1;
+   
+    
+}
+.box3{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent ;
+    border-right: 200px solid transparent ;
+    border-bottom: 320px solid#77c7d1;
+    
+}
+.box4{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent ;
+    border-right: 200px solid transparent ;
+    border-bottom: 150px solid #77c7d1;
+    position: absolute;
+    left: 58px;
+}
+
+.box5{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent ;
+    border-right: 200px solid transparent ;
+    border-bottom: 420px solid #77c7d1;
+    
+}
+
+.blut1 , .blut2{
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    bottom: 110%;
+}
+.bluts2{
+    animation: azom4 7s linear alternate ;
+}
+
+.bluts1{
+    animation: azom3 12s linear alternate  infinite;
+}
+
+.quyosh{
+    width: 150px;
+    height: 100px;
+    /* z-index: 999; */
+    position: absolute;
+    left: 80%;
+}
+
+.qul{
+    width: 100%;
+    animation: azom5 22s linear  infinite;
+}
+
+
+@keyframes azom3{
+    from{
+       margin-right: 800px;
+    }to{
+        margin-left: 800px;
+         
+    }
+}
+@keyframes azom4{
+    from{
+        margin-left: 800px;
+    }to{
+        margin-right: 800px;
+         
+    }
+}
+@keyframes azom5{
+    from{
+       margin-top: 500px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+.container-2{
+    width: 100%;
+    height: 48vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.cont{
+    width: 220px;
+    height: 220px;
+    border: 8px solid #329dac ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    background: linear-gradient(#80FFDB, #5390D9);
+}
+
+.cont2{
+    width: 40px;
+    height: 40px;
+    border: 8px solid #329dac ;
+    border-radius: 50%;
+    position: absolute;
+    right: 656px;
+    top: 28%;
+}
+
+.strel1{
+    width: 3px;
+    height: 170px;
+    background: linear-gradient( to top, #fff 50% , transparent 50%) ;
+    position: absolute;
+    animation: col1 63s linear infinite ;
+}
+
+.strel2{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+
+.strel3{
+    width: 2px;
+    height: 200px;
+    background: linear-gradient( to top, #fff 50% , transparent 50%) ;
+    position: absolute;
+    
+    animation: col1 18s linear infinite ;
+}
+
+.strel1:hover{
+    animation-play-state: paused;  
+}
+
+.strel3:hover{
+    animation-play-state: paused;  
+}
+
+.container-2 >b{
+    color: #329dac;
+    font-weight: 900;
+    position: absolute;
+    right: 45%;
+    top: 74%;
+}
+
+
+@keyframes col1{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes col2{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+.img{
+    display: flex;
+    width: 100px;
+    height: 200px;
+    
+}
+
+.goo3{
+    width: 20%;
+    position: absolute;
+    right: 40%;
+    top: 60%;
+}
+
+.goo2{
+    width: 20%;
+    position: absolute;
+    right: 30%;
+    top: 60%;
+}
+.goo1{
+    width: 20%;
+    position: absolute;
+    right: 50%;
+    top: 60%;
+}
+
+
+.container-3{
+    width: 100%;
+    height: 48vw;
+    background-color: #460b39;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    
+}
+
+.ut{
+    width: 510px;
+    height: 570px;
+    /* background-color: #5390D9; */
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.ol1{
+    width: 55px;
+    height: 300px;
+    background-color: #ce1e05;
+    margin-top: 170px;
+    border-radius: 
+    50px;box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut1 1s linear alternate  infinite;
+
+}
+.ol2{
+    width: 55px;
+    height: 330px;
+    background-color: #ce1e05;
+    margin-top: 110px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut2 2s linear alternate  infinite;
+}
+.ol3{
+    width: 55px;
+    height: 330px;
+    background-color: #ce1e05;
+    margin-top: 56px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut3 3s linear alternate  infinite;
+}
+.ol4{
+    width: 55px;
+    height: 440px;
+    background-color: #ce1e05;
+    margin-top: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut4 2s linear alternate  infinite;
+
+}
+.ol5{
+    width: 55px;
+    height: 460px;
+    background-color: #ce1e05;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut5 3s linear alternate  infinite;
+
+    
+}
+.ol6{
+    width: 55px;
+    height: 420px;
+    background-color: #ce1e05;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut6 2s linear alternate  infinite;
+}
+.ol7{
+    width: 55px;
+    height: 370px;
+    background-color: #ce1e05;
+    margin-top: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut7 3s linear alternate  infinite;
+
+}
+.ol8{
+    width: 55px;
+    height: 250px;
+    background-color: #ce1e05;
+    margin-top: 170px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #ce1e05;
+    animation: ut8 2s linear alternate  infinite;
+}
+
+@keyframes ut1{
+    from{
+       margin-top: 180px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 200px;
+    }
+}
+@keyframes ut2{
+    from{
+       margin-top: 70px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes ut3{
+    from{
+       margin-top: 60px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes ut4{
+    from{
+       margin-top: 30px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 70px;
+    }
+}
+
+@keyframes ut5{
+    from{
+       margin-top: 0px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 30px;
+    }
+}
+@keyframes ut6{
+    from{
+       margin-top: 20px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 100px;
+    }
+}
+@keyframes ut7{
+    from{
+       margin-top: 80px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes ut8{
+    from{
+       margin-top: 140px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 170px;
+    }
+}
+
+
+
+.ut2{
+    width: 510px;
+    height: 470px;
+    /* background-color: #53d974; */
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 24%;
+
+    
+}
+
+.olov1{
+    width: 55px;
+    height: 200px;
+    background-color: #fca014;
+    margin-top: 170px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto1 3s linear alternate  infinite;
+
+}
+.olov2{
+    width: 55px;
+    height: 270px;
+    background-color: #fca014;
+    margin-top: 110px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto2 2s linear alternate  infinite;
+}
+.olov3{
+    width: 55px;
+    height: 290px;
+    background-color: #fca014;
+    margin-top: 56px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto3 3s linear alternate  infinite;
+}
+.olov4{
+    width: 55px;
+    height: 350px;
+    background-color: #fca014;
+    margin-top: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto4 2s linear alternate  infinite;
+
+}
+.olov5{
+    width: 55px;
+    height: 370px;
+    background-color: #fca014;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto5 3s linear alternate  infinite;
+
+    
+}
+.olov6{
+    width: 55px;
+    height: 320px;
+    background-color: #fca014;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto6 2s linear alternate  infinite;
+}
+
+.olov7{
+    width: 55px;
+    height: 280px;
+    background-color: #fca014;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto7 3s linear alternate  infinite;
+
+    
+}
+.olov8{
+    width: 55px;
+    height: 200px;
+    background-color: #fca014;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fca014;
+    animation: uto8 2s linear alternate  infinite;
+}
+
+
+
+@keyframes uto1{
+    from{
+       margin-top: 170px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 190px;
+    }
+}
+@keyframes uto2{
+    from{
+       margin-top: 70px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes uto3{
+    from{
+       margin-top: 60px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes uto4{
+    from{
+       margin-top: 30px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 70px;
+    }
+}
+
+@keyframes uto5{
+    from{
+       margin-top: 0px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 30px;
+    }
+}
+@keyframes uto6{
+    from{
+       margin-top: 20px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 100px;
+    }
+}
+@keyframes uto7{
+    from{
+       margin-top: 80px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes uto8{
+    from{
+       margin-top: 140px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 170px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ut3{
+    width: 510px;
+    height: 400px;
+    /* background-color: #53d974; */
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 24%;
+
+    
+}
+
+.olo1{
+    width: 55px;
+    height: 150px;
+    background-color: #fdf0d8;
+    margin-top: 170px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px#fdf0d8 ;
+    animation: uto1 3s linear alternate  infinite;
+
+}
+.olo2{
+    width: 55px;
+    height: 200px;
+    background-color: #fdf0d8;
+    margin-top: 110px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px#fdf0d8 ;
+    animation: uto2 2s linear alternate  infinite;
+}
+.olo3{
+    width: 55px;
+    height: 220px;
+    background-color: #fdf0d8;
+    margin-top: 56px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fdf0d8;
+    animation: uto3 3s linear alternate  infinite;
+}
+.olo4{
+    width: 55px;
+    height: 270px;
+    background-color: #fdf0d8;
+    margin-top: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fdf0d8;
+    animation: uto4 2s linear alternate  infinite;
+
+}
+.olo5{
+    width: 55px;
+    height: 290px;
+    background-color: #fdf0d8;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fdf0d8;
+    animation: uto5 3s linear alternate  infinite;
+
+    
+}
+.olo6{
+    width: 55px;
+    height: 260px;
+    background-color: #fdf0d8;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fdf0d8;
+    animation: uto6 2s linear alternate  infinite;
+}
+
+.olo7{
+    width: 55px;
+    height: 200px;
+    background-color:#fdf0d8 ;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fdf0d8;
+    animation: uto7 3s linear alternate  infinite;
+
+    
+}
+.olo8{
+    width: 55px;
+    height: 140px;
+    background-color: #fdf0d8;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px 9px #fdf0d8 ;
+    animation: uto8 2s linear alternate  infinite;
+}
+
+
+
+@keyframes uto1{
+    from{
+       margin-top: 170px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 190px;
+    }
+}
+@keyframes uto2{
+    from{
+       margin-top: 70px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes uto3{
+    from{
+       margin-top: 60px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes uto4{
+    from{
+       margin-top: 30px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 70px;
+    }
+}
+
+@keyframes uto5{
+    from{
+       margin-top: 0px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 30px;
+    }
+}
+@keyframes uto6{
+    from{
+       margin-top: 20px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 100px;
+    }
+}
+@keyframes uto7{
+    from{
+       margin-top: 80px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 120px;
+    }
+}
+@keyframes uto8{
+    from{
+       margin-top: 140px;
+       margin-bottom: 0;
+       transition: all 3s;
+    }to{
+        margin-bottom: 0;
+        
+        margin-top: 170px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
